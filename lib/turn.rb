@@ -46,7 +46,7 @@ def turn(board)
     puts "Please enter 1-9:"
     turn(board)
   else
-    move(board, index, token)
+    move(board, index, token = "X")
     display_board(board)
   end
 end
